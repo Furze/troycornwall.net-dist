@@ -1,0 +1,1 @@
+<div class="row"> <div ng-repeat="contact in contactArray"> <div class="row"> <div class="col-sm-2"> <i class="contact-icon fa {{contact.icon}}"></i> </div> <div class="col-sm-10"> <a ng-if="contact.link" target="_blank" ng-href="{{contact.link}}"> {{contact.text}} </a> <div ng-if="!contact.link">{{contact.text}}</div> </div> </div> </div> </div>
